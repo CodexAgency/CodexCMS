@@ -25,14 +25,14 @@ define('SPARKED', true);
 
 // Refuse to run when called from php-cgi
 if (substr(php_sapi_name(), 0, 3) === 'cgi') {
-	die("The cli tool is not supported when running php-cgi. It needs php-cli to function!\n\n");
+    die("The cli tool is not supported when running php-cgi. It needs php-cli to function!\n\n");
 }
 
 // Path to the front controller
 define('FCPATH', __DIR__ . DIRECTORY_SEPARATOR);
 
 // Load our paths config file
-require 'app/Config/Paths.php';
+require 'codex/Config/Paths.php';
 // ^^^ Change this line if you move your application folder
 
 $paths = new Config\Paths();
@@ -55,5 +55,5 @@ $console->showHeader();
 // fire off the command in the main framework.
 $response = $console->run();
 if ($response->getStatusCode() >= 300) {
-	exit($response->getStatusCode());
+    exit($response->getStatusCode());
 }
