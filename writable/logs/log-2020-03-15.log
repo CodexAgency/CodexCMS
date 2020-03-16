@@ -1,0 +1,196 @@
+CRITICAL - 2020-03-15 15:46:01 --> Class 'App\Controllers\Backend\Auth\BackendController' not found
+#0 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Router/Router.php(549): include_once()
+#1 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('backend/auth/lo...')
+#2 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('backend/auth/lo...')
+#3 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/carminemilieni/GitHub/CodexCMS/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-03-15 15:46:08 --> Class 'App\Controllers\Backend\Auth\BackendController' not found
+#0 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Router/Router.php(549): include_once()
+#1 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('backend/auth/lo...')
+#2 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('backend/auth/lo...')
+#3 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/carminemilieni/GitHub/CodexCMS/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-03-15 15:46:34 --> Class 'App\Controllers\Backend\Auth\BackendController' not found
+#0 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Router/Router.php(549): include_once()
+#1 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('backend/auth/lo...')
+#2 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('backend/auth/lo...')
+#3 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/carminemilieni/GitHub/CodexCMS/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-03-15 15:47:50 --> Class 'App\Controllers\Backend\Auth\BackendController' not found
+#0 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Autoloader/Autoloader.php(365): require_once()
+#1 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Users/carminem...')
+#2 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#6 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#7 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/carminemilieni/GitHub/CodexCMS/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-03-15 15:47:59 --> Class 'App\Controllers\Backend\Auth\BackendController' not found
+#0 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Autoloader/Autoloader.php(365): require_once()
+#1 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Users/carminem...')
+#2 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#6 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#7 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/carminemilieni/GitHub/CodexCMS/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-03-15 15:48:00 --> Class 'App\Controllers\Backend\Auth\BackendController' not found
+#0 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Autoloader/Autoloader.php(365): require_once()
+#1 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Users/carminem...')
+#2 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#6 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#7 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/carminemilieni/GitHub/CodexCMS/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-03-15 16:07:45 --> Class 'Codex\Controllers\BaseController' not found
+#0 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Autoloader/Autoloader.php(365): require_once()
+#1 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Users/carminem...')
+#2 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#6 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#7 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/carminemilieni/GitHub/CodexCMS/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-03-15 16:07:46 --> Class 'Codex\Controllers\BaseController' not found
+#0 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Autoloader/Autoloader.php(365): require_once()
+#1 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Users/carminem...')
+#2 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#6 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#7 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/carminemilieni/GitHub/CodexCMS/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-03-15 16:10:23 --> Class 'Codex\Controllers\BaseController' not found
+#0 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Autoloader/Autoloader.php(365): require_once()
+#1 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Users/carminem...')
+#2 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#6 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#7 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/carminemilieni/GitHub/CodexCMS/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-03-15 16:16:45 --> Class 'App\Backend\Auth\AuthController' not found
+#0 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Autoloader/Autoloader.php(365): require_once()
+#1 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Users/carminem...')
+#2 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#6 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#7 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/carminemilieni/GitHub/CodexCMS/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-03-15 16:16:46 --> Class 'App\Backend\Auth\AuthController' not found
+#0 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Autoloader/Autoloader.php(365): require_once()
+#1 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Users/carminem...')
+#2 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#6 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#7 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/carminemilieni/GitHub/CodexCMS/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-03-15 16:24:11 --> Class 'App\Backend\Auth\AuthController' not found
+#0 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Router/Router.php(549): include_once()
+#1 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('backend/auth/lo...')
+#2 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('backend/auth/lo...')
+#3 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/carminemilieni/GitHub/CodexCMS/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-03-15 16:24:12 --> Class 'App\Backend\Auth\AuthController' not found
+#0 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Router/Router.php(549): include_once()
+#1 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('backend/auth/lo...')
+#2 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('backend/auth/lo...')
+#3 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/carminemilieni/GitHub/CodexCMS/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-03-15 16:24:39 --> Class 'App\Backend\Auth\AuthController' not found
+#0 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Router/Router.php(549): include_once()
+#1 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('backend/auth/lo...')
+#2 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('backend/auth/lo...')
+#3 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/carminemilieni/GitHub/CodexCMS/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-03-15 16:24:40 --> Class 'App\Backend\Auth\AuthController' not found
+#0 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Router/Router.php(549): include_once()
+#1 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('backend/auth/lo...')
+#2 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('backend/auth/lo...')
+#3 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/carminemilieni/GitHub/CodexCMS/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-03-15 16:30:07 --> syntax error, unexpected 'return' (T_RETURN)
+#0 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('backend/auth/lo...')
+#1 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('backend/auth/lo...')
+#2 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/carminemilieni/GitHub/CodexCMS/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-03-15 16:40:34 --> Call to undefined method CodeIgniter\View\View::view()
+#0 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/View/View.php(236): include()
+#1 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Common.php(1075): CodeIgniter\View\View->render('template/layout', Array, true)
+#2 /Users/carminemilieni/GitHub/CodexCMS/app/Controllers/Backend/Auth/Login.php(36): view('template/layout')
+#3 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(910): App\Controllers\Backend\Auth\Login->index()
+#4 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Auth\Login))
+#5 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/carminemilieni/GitHub/CodexCMS/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-03-15 16:41:41 --> Invalid file: template/parts/footer-script.php
+#0 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/parts/...')
+#1 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Common.php(1075): CodeIgniter\View\View->render('template/parts/...', Array, true)
+#2 /Users/carminemilieni/GitHub/CodexCMS/app/Views/template/layout.php(12): view('template/parts/...')
+#3 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/View/View.php(236): include('/Users/carminem...')
+#4 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Common.php(1075): CodeIgniter\View\View->render('template/layout', Array, true)
+#5 /Users/carminemilieni/GitHub/CodexCMS/app/Controllers/Backend/Auth/Login.php(36): view('template/layout')
+#6 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(910): App\Controllers\Backend\Auth\Login->index()
+#7 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Auth\Login))
+#8 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/carminemilieni/GitHub/CodexCMS/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-03-15 16:42:29 --> Invalid file: template/parts/head.php
+#0 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/parts/...')
+#1 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Common.php(1075): CodeIgniter\View\View->render('template/parts/...', Array, true)
+#2 /Users/carminemilieni/GitHub/CodexCMS/app/Views/backend/layout.php(5): view('template/parts/...')
+#3 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/View/View.php(236): include('/Users/carminem...')
+#4 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Common.php(1075): CodeIgniter\View\View->render('backend/layout', Array, true)
+#5 /Users/carminemilieni/GitHub/CodexCMS/app/Controllers/Backend/Auth/Login.php(36): view('backend/layout')
+#6 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(910): App\Controllers\Backend\Auth\Login->index()
+#7 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Auth\Login))
+#8 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/carminemilieni/GitHub/CodexCMS/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-03-15 16:42:30 --> Invalid file: template/parts/head.php
+#0 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/parts/...')
+#1 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Common.php(1075): CodeIgniter\View\View->render('template/parts/...', Array, true)
+#2 /Users/carminemilieni/GitHub/CodexCMS/app/Views/backend/layout.php(5): view('template/parts/...')
+#3 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/View/View.php(236): include('/Users/carminem...')
+#4 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/Common.php(1075): CodeIgniter\View\View->render('backend/layout', Array, true)
+#5 /Users/carminemilieni/GitHub/CodexCMS/app/Controllers/Backend/Auth/Login.php(36): view('backend/layout')
+#6 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(910): App\Controllers\Backend\Auth\Login->index()
+#7 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Auth\Login))
+#8 /Users/carminemilieni/GitHub/CodexCMS/vendor/codeigniter4/codeigniter4/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/carminemilieni/GitHub/CodexCMS/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

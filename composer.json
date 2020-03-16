@@ -1,0 +1,44 @@
+{
+    "name": "codeagency/codexcms",
+    "type": "project",
+    "description": "CodexCMS starter app based on codeigniter 4",
+    "homepage": "https://codex.agency",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2",
+        "codeigniter4/codeigniter4": "dev-develop"
+    },
+    "require-dev": {
+        "mikey179/vfsstream": "1.6.*",
+        "phpunit/phpunit": "8.5.*"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Support\\": "tests/_support"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "post-update-cmd": [
+            "@composer dump-autoload"
+        ]
+    },
+    "support": {
+        "forum": "https://codex.agency/"
+    },
+    "authors": [
+        {
+            "name": "Carmine Milieni",
+            "email": "carmine.milieni@gmail.com",
+            "role": "Developer",
+            "homepage": "https://carminemilieni.it"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/codeigniter4/codeigniter4"
+        }
+    ]
+}
