@@ -15,3 +15,16 @@ application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess
 /vendor/
+
+  
+composer.phar
+/vendor/
+
+.composer.lock
+
+/writable/cache
+/writable/debugbar
+/writable/logs
+/writable/session
+/writable/uploads
+.env
