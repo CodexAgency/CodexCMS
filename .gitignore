@@ -20,7 +20,7 @@ application/logs/*
 composer.phar
 /vendor/
 
-.composer.lock
+composer.lock
 
 *.code-workspace
 
