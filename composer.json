@@ -1,7 +1,7 @@
 {
-    "name": "carminemilieni/codexcms",
+    "name": "codexagency/codexcmsframework",
     "type": "project",
-    "description": "CodexCMS starter app based on codeigniter 4",
+    "description": "CodexCMS framework based on codeigniter 4",
     "homepage": "https://codex.agency",
     "license": "MIT",
     "require": {
