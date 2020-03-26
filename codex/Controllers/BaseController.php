@@ -29,6 +29,12 @@ class BaseController extends Controller
      */
     protected $helpers = [];
 
+    protected $db;
+
+    protected $appName;
+
+    protected $view;
+
     /**
      * Constructor.
      */
@@ -45,5 +51,9 @@ class BaseController extends Controller
         //--------------------------------------------------------------------
         // E.g.:
         // $this->session = \Config\Services::session();
+
+        $this->db = \Config\Database::connect();
+        $this->appName = 'Codex';
+        $this->view = new \Codex\Libraries\View\View(['appName' => 'Codex']);
     }
 }

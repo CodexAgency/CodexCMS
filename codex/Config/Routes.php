@@ -21,7 +21,7 @@ $routes->setDefaultController('Home');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
-$routes->setAutoRoute(true);
+$routes->setAutoRoute(false);
 
 /**
  * --------------------------------------------------------------------
@@ -32,6 +32,34 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 //$routes->get('{locale}/', 'Codex\Controllers\Home::index');
+
+$routes->get('admin/auth/login', 'Backend\Auth\Login');
+
+$routes->group('auth', ['namespace' => 'Myth\Auth\Controllers'], function ($routes) {
+    // Login/out
+    $routes->get('login', 'AuthController::login', ['as' => 'login']);
+    $routes->post('login', 'AuthController::attemptLogin');
+    $routes->get('logout', 'AuthController::logout');
+
+    // Registration
+    $routes->get('register', 'AuthController::register', ['as' => 'register']);
+    $routes->post('register', 'AuthController::attemptRegister');
+
+    // Activation
+    $routes->get('activate-account', 'AuthController::activateAccount', ['as' => 'activate-account']);
+
+    // Forgot/Resets
+    $routes->get('forgot', 'AuthController::forgotPassword', ['as' => 'forgot']);
+    $routes->post('forgot', 'AuthController::attemptForgot');
+    $routes->get('reset-password', 'AuthController::resetPassword', ['as' => 'reset-password']);
+    $routes->post('reset-password', 'AuthController::attemptReset');
+});
+
+
+
+
+
+
 //$routes->get('/', 'Home::index');
 
 /**

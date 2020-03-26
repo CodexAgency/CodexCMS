@@ -57,6 +57,7 @@ class Autoload extends \CodeIgniter\Config\AutoloadConfig
             'Codex' => APPPATH, // To ensure filters, etc still found,
             APP_NAMESPACE => APPPATH, // For custom namespace
             'Config' => APPPATH . 'Config',
+            'Myth\Auth\Config' => APPPATH.'Config'
         ];
 
         /**
@@ -88,5 +89,4 @@ class Autoload extends \CodeIgniter\Config\AutoloadConfig
     }
 
     //--------------------------------------------------------------------
-
 }

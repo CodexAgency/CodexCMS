@@ -29,5 +29,6 @@ class BackendController extends BaseController
         //--------------------------------------------------------------------
         // E.g.:
         // $this->session = \Config\Services::session();
+        $this->view->setEndType('Backend');
     }
 }
